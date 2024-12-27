@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoverse</title>
+    <link rel="icon" type="image/x-icon" href="favicon_resized.ico">
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background: #1f1f1f;
+            padding: 50px 0;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #00bfff;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #00bfff;
+            color: #121212;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #00a3d1;
+        }
+
+        /* Blog Section */
+        .blog-posts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .blog-posts article {
+            background: #1f1f1f;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .blog-posts article h3 {
+            margin-top: 0;
+            color: #00bfff;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f1f1f;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer .socials a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Echoverse</h1>
+        <p>The gateway to happiness</p>
+    </header>
+
+    <section id="youtube">
+        <h2>Check Out My YouTube Channel</h2>
+        <p>Subscribe to get updated on my latest posts</p>
+        <a href="https://www.youtube.com/channel/UCDV9hLg5EzbsT6V09ZD48cQ" target="_blank" class="btn">Visit My Channel</a>
+    </section>
+
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-posts">
+            <article>
+                <h3>Project Echo</h3>
+                <p>A personal game project...</p>
+                <a href="project-echo.html" class="btn">Read More</a>
+            </article>
+            <article>
+                <h3>Script</h3>
+                <p>The script of my first video...</p>
+                <a href="script.html" class="btn">Read More</a>
+            </article>
+            <!-- Add more posts as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Echoverse. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="https://www.youtube.com/channel/UCDV9hLg5EzbsT6V09ZD48cQ" target="_blank">YouTube</a>
+            <!-- Add more links as needed -->
+        </div>
+    </footer>
+</body>
+</html>
